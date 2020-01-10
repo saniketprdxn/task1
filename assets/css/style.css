@@ -100,14 +100,23 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 100%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
 
+header {
+  height: 466px;
+  background: url('https://via.placeholder.com/1080x466') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
+a[href="index.html"] {
+  margin: 68px 0px 0px 80px ;
+}
 
 
 
