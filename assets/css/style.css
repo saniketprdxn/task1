@@ -122,26 +122,26 @@ header {
 }
 
 header .wrapper{
-
-  padding: 0px 80px;
+  padding: 0px;
   height: inherit;
   display: flex;
   flex-direction: column;
 }
 
 a[href="index.html"] {
-  margin-top: 68px;
+  margin: 68px 0px 0px 80px;
   border: 1px solid;
 }
 
 nav {
   padding: 30px 0px;
   margin-top:220px;
-  width: 113%;
+  width: 100%;
   background-color: rgba(0,0,0,0.4);
   z-index: 1000;
   align-self: center;
   text-align: center;
+  border-bottom: 10px solid rgb(138, 186, 231);
 }
 
 nav ul {
@@ -173,7 +173,6 @@ nav .active{
 =================================*/ 
 
 .banner .wrapper {
-  border-top: 10px solid rgb(138, 186, 231);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -208,10 +207,46 @@ nav .active{
   flex-direction: column;
 }
 
+.cat-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+figure {
+  padding: 0px 8px;
+}
 
+figcaption {
+  padding: 24px 0px 50px 0px;
+  text-align: center;
+  color: #6c6c6c;
+}
 
+.pagination{
+    padding: 32px;
+    width: 75%;
+    text-align: center;
+}
+.pagination a {
+    color: #878380;
+    text-decoration: none;
+    background: #ececec;
+    transition: background-color .3s;
+    border: 1px solid #ececec;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding: 16px;
+   
+  }
+  .pagination .page-active {
+    background-color: #076599;
+    color: white;
 
+  }
+  .pagination a:hover {
+    background-color: #076599;
+    color: white;
+  }
 
  /*=================================
   Catalog styling ends here
