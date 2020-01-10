@@ -316,8 +316,11 @@ figcaption {
   footer styling starts here
 =================================*/ 
 
-footer {
-  
+footer{
+  background-color:rgba(0,0,0,0.8);
+  color:white;
+  padding: 15px;
+  text-align: center;
 }
 
 
