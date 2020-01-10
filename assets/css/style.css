@@ -97,11 +97,18 @@ li {
   list-style-type: none;
 }
 
+.container {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;  
+}
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
   width: 100%; 
   margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0px 45px;
 }
 /*=================================
   Header styling starts here
@@ -109,25 +116,28 @@ li {
 
 header {
   height: 466px;
-}
-
-header .wrapper{
-  height: inherit;
   background: url('https://via.placeholder.com/1080x466') no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+header .wrapper{
+
+  padding: 0px 80px;
+  height: inherit;
   display: flex;
   flex-direction: column;
 }
 
 a[href="index.html"] {
-  margin: 68px 0px 0px 80px ;
+  margin-top: 68px;
+  border: 1px solid;
 }
 
 nav {
   padding: 30px 0px;
   margin-top:220px;
-  width: inherit;
+  width: 113%;
   background-color: rgba(0,0,0,0.4);
   z-index: 1000;
   align-self: center;
@@ -162,12 +172,26 @@ nav .active{
   Banner styling starts here
 =================================*/ 
 
-.banner {
+.banner .wrapper {
   border-top: 10px solid rgb(138, 186, 231);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: #6c6c6c;
+
 }
 .banner h2 {
   margin-top: 84px;
+  font-size: 28px;
+  align-self: flex-start;
+}
+.banner p {
+  box-sizing: border-box;
+  padding:0px 151px 0px 0px;
+  margin: 34px 0px 64px 0px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
 }
 
 
