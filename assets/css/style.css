@@ -264,6 +264,46 @@ figcaption {
   background: #076599;
 }
 
+.fab {
+  width: 100px;
+  height: 100px;
+  padding: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  color: #fff;
+}
+
+.chat {
+  padding: 50px 0px;
+  color:white;
+}
+
+.chat h2{
+  font-size:2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.chat p {
+  font-size:1.2rem;
+  line-height: 1.8;
+}
+
+.chat a {
+  padding: 10px 25px;
+  border: 1px solid white;
+  margin-top: 25px;
+  display: inline-block;
+  color:white;
+}
+
+.chat a:hover {
+  background:white;
+  color: #076599;
+}
+
 
 
  /*=================================
