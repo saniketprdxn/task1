@@ -304,12 +304,9 @@ figcaption {
   color: #076599;
 }
 
-
-
  /*=================================
   Help styling ends here
 =================================*/ 
-
 
 /*=================================
   main styling ends here
@@ -319,7 +316,9 @@ figcaption {
   footer styling starts here
 =================================*/ 
 
-
+footer {
+  
+}
 
 
 
