@@ -115,7 +115,6 @@ li {
 =================================*/
 
 header {
-  height: 466px;
   background: url('https://via.placeholder.com/1080x466') no-repeat;
   background-position: center;
   background-size: cover;
@@ -130,7 +129,6 @@ header .wrapper{
 
 a[href="index.html"] {
   margin: 68px 0px 0px 80px;
-  border: 1px solid;
 }
 
 nav {
@@ -154,6 +152,10 @@ nav a {
   font-size: 20px;
   font-weight: 400;
   color: #fff;
+}
+
+nav a:hover {
+  color: #076599;
 }
 
 nav .active{
@@ -187,7 +189,7 @@ nav .active{
 
 .banner p {
   box-sizing: border-box;
-  padding:0px 151px 0px 0px;
+  padding:0px 229px 0px 0px;
   margin: 34px 0px 64px 0px;
   font-size: 20px;
   line-height: 1.5;
@@ -322,10 +324,6 @@ footer{
   padding: 15px;
   text-align: center;
 }
-
-
-
-
 
  /*=================================
   footer styling ends here
