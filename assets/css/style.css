@@ -178,13 +178,14 @@ nav .active{
   display: flex;
   flex-direction: column;
   color: #6c6c6c;
-
 }
+
 .banner h2 {
   margin-top: 84px;
   font-size: 28px;
   align-self: flex-start;
 }
+
 .banner p {
   box-sizing: border-box;
   padding:0px 151px 0px 0px;
@@ -194,15 +195,27 @@ nav .active{
   text-align: left;
 }
 
+ /*=================================
+  Banner styling ends here
+=================================*/
+
+/*=================================
+  Catalog styling starts here
+=================================*/ 
+
+.catalog .wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+
 
 
 
 
  /*=================================
-  Banner styling ends here
-=================================*/
-
-
+  Catalog styling ends here
+=================================*/ 
 
 
 
