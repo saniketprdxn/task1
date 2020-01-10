@@ -109,13 +109,13 @@ li {
 
 header {
   height: 466px;
-  background: url('https://via.placeholder.com/1080x466') no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 header .wrapper{
   height: inherit;
+  background: url('https://via.placeholder.com/1080x466') no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
 }
@@ -158,7 +158,25 @@ nav .active{
   main styling starts here
 =================================*/
 
+/*=================================
+  Banner styling starts here
+=================================*/ 
 
+.banner {
+  border-top: 10px solid rgb(138, 186, 231);
+  text-align: center;
+}
+.banner h2 {
+  margin-top: 84px;
+}
+
+
+
+
+
+ /*=================================
+  Banner styling ends here
+=================================*/
 
 
 
